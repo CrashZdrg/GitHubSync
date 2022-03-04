@@ -10,8 +10,8 @@ Run it once to generate an empty config file that you should edit like this:
 
 | Property | Description |
 |----------|-------------|
-| RepositoryOwner | The owner of the repository. Eg.: CrashZdrg. |
-| RepositoryName | The name of the repository. Eg.: GitHubSync. |
+| RepositoryOwner | The owner of the repository. e.g.: CrashZdrg. |
+| RepositoryName | The name of the repository. e.g.: GitHubSync. |
 | AssetNamePattern | Empty to get the first asset, full name of the asset, or a RegEx pattern that match it. |
 | OnlyReleases | `true` for Releases only. `false` to include PreReleases, etc. |
 | OutputDirectory | Path to extract the asset. |
