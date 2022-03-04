@@ -12,7 +12,7 @@ Run it once to generate an empty config file that you should edit like this:
 |----------|-------------|
 | RepositoryOwner | The owner of the repository. e.g.: CrashZdrg. |
 | RepositoryName | The name of the repository. e.g.: GitHubSync. |
-| AssetNamePattern | Empty to get the first asset, full name of the asset, or a RegEx pattern that match it. |
+| AssetNamePattern | A RegEx pattern that match the asset name. Empty to get the first asset. |
 | OnlyReleases | `true` for Releases only. `false` to include PreReleases, etc. |
 | OutputDirectory | Path to extract the asset. |
 | Executable | Full or relative path to an executable to run. Empty to disable. |
