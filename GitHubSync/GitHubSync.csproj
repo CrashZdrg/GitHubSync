@@ -5,6 +5,16 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <Platforms>x86;x64</Platforms>
+    <NoWin32Manifest>true</NoWin32Manifest>
+    <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
+  </PropertyGroup>
+    
+  <PropertyGroup>
+    <Version>1.0.0.0</Version>
+    <Authors>CrashZdrg</Authors>
+    <Copyright>Copyright © CrashZdrg 2022</Copyright>
+    <RepositoryUrl>https://github.com/CrashZdrg/GitHubSync</RepositoryUrl>
+    <PackageTags>github</PackageTags>
   </PropertyGroup>
 
   <PropertyGroup Condition="$(Configuration) == Debug">
